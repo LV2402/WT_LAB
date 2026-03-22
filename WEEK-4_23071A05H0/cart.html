@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="cart.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="frame">
+        <h1>Your Shopping Cart</h1>
+        <div id="cart-contents"></div>
+        <button onclick="clearCart()">Clear Cart</button>
+    </div>
+    <script>
+      // Display cart contents on DOM ready (works in frames)
+      window.addEventListener('DOMContentLoaded', displayCart);
+    </script>
+</body>
+</html>

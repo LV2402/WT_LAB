@@ -1,0 +1,31 @@
+<users>
+  <user>
+    <username>john_doe</username>
+    <password>U2FsdGVkX1+abc123encrypted==</password>
+    <email>john.doe@example.com</email>
+    <purchaseHistory>
+      <purchase>
+        <item>Book Title 1</item>
+        <date>2024-03-01</date>
+        <amount>19.99</amount>
+      </purchase>
+      <purchase>
+        <item>Book Title 2</item>
+        <date>2024-03-15</date>
+        <amount>9.99</amount>
+      </purchase>
+    </purchaseHistory>
+  </user>
+  <user>
+    <username>jane_smith</username>
+    <password>U2FsdGVkX1+xyz456encrypted==</password>
+    <email>jane.smith@example.com</email>
+    <purchaseHistory>
+      <purchase>
+        <item>Book Title 3</item>
+        <date>2024-02-20</date>
+        <amount>14.99</amount>
+      </purchase>
+    </purchaseHistory>
+  </user>
+</users>

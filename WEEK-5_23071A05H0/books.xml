@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book id="1">
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <genre>Fiction</genre>
+        <price>10.99</price>
+        <availability>In Stock</availability>
+    </book>
+    <book id="2">
+        <title>Thinking, Fast and Slow</title>
+        <author>Daniel Kahneman</author>
+        <genre>Nonfiction</genre>
+        <price>14.50</price>
+        <availability>Out of Stock</availability>
+    </book>
+    <book id="3">
+        <title>Harry Potter and the Sorcerer's Stone</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>12.00</price>
+        <availability>In Stock</availability>
+    </book>
+    <!-- Add more book entries as needed -->
+</catalog>

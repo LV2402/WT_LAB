@@ -1,0 +1,138 @@
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:#0f172a;
+color:white;
+}
+
+/* container */
+
+.container{
+width:1100px;
+margin:auto;
+padding:30px;
+}
+
+/* title */
+
+h1{
+text-align:center;
+margin-bottom:40px;
+font-size:40px;
+letter-spacing:2px;
+}
+
+/* product grid */
+
+.products{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+/* product card */
+
+.product{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+text-align:center;
+transition:.3s;
+border:1px solid #334155;
+}
+
+.product:hover{
+transform:translateY(-6px);
+box-shadow:0 15px 30px rgba(0,0,0,0.5);
+}
+
+/* price */
+
+.product p{
+margin:10px 0;
+color:#cbd5e1;
+}
+
+/* buttons */
+
+button{
+background:#38bdf8;
+border:none;
+color:black;
+padding:12px 20px;
+border-radius:30px;
+cursor:pointer;
+font-weight:bold;
+transition:.3s;
+}
+
+button:hover{
+background:#0ea5e9;
+transform:scale(1.05);
+}
+
+/* cart link */
+
+.cart-link{
+display:block;
+width:200px;
+margin:40px auto;
+text-align:center;
+background:#22c55e;
+padding:12px;
+border-radius:30px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+.cart-link:hover{
+background:#16a34a;
+}
+
+/* table */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:30px;
+background:#1e293b;
+border-radius:10px;
+overflow:hidden;
+}
+
+th{
+background:#38bdf8;
+color:black;
+padding:14px;
+}
+
+td{
+padding:14px;
+border-bottom:1px solid #334155;
+text-align:center;
+}
+
+/* forms */
+
+form{
+background:#1e293b;
+padding:30px;
+border-radius:15px;
+width:350px;
+margin:auto;
+}
+
+input{
+width:100%;
+padding:10px;
+border:none;
+border-radius:8px;
+margin-top:5px;
+margin-bottom:15px;
+}
+
+a{
+color:#38bdf8;
+text-decoration:none;
+}

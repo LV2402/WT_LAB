@@ -1,0 +1,43 @@
+/* cart.css - Styles for the shopping cart table and buttons */
+
+#cart-contents table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+#cart-contents th, #cart-contents td {
+  border: 1px solid #e0e0e0;
+  padding: 12px 8px;
+  text-align: left;
+}
+#cart-contents th {
+  background: #f7f7fa;
+  color: #2d3e50;
+  font-weight: 600;
+}
+#cart-contents tr:nth-child(even) {
+  background: #fafbfc;
+}
+#cart-contents tr:last-child td {
+  font-weight: bold;
+  background: #fffbe6;
+  color: #b36b00;
+}
+#cart-contents p {
+  font-size: 1.1em;
+  color: #888;
+}
+button {
+  background: #ffb347;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #ff9800;
+}

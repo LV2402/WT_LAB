@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Catalog</title>
+
+<link rel="stylesheet" href="css/style.css">
+<script src="js/cart.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Products</h1>
+
+<div class="products">
+
+<div class="product">
+<h3>Laptop</h3>
+<p>Price: Rs.60000</p>
+<p>Stock: <span id="Laptop-stock">10</span></p>
+<button onclick="addItem('Laptop',60000)">Add to Cart</button>
+</div>
+
+<div class="product">
+<h3>Mobile</h3>
+<p>Price: Rs.25000</p>
+<p>Stock: <span id="Mobile-stock">15</span></p>
+<button onclick="addItem('Mobile',25000)">Add to Cart</button>
+</div>
+
+<div class="product">
+<h3>Headphones</h3>
+<p>Price: Rs.3000</p>
+<p>Stock: <span id="Headphones-stock">20</span></p>
+<button onclick="addItem('Headphones',3000)">Add to Cart</button>
+</div>
+
+</div>
+
+<a class="cart-link" href="cart.html">View Cart</a>
+
+</div>
+
+</body>
+</html>
